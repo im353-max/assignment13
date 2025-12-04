@@ -1,0 +1,17 @@
+
+
+Paper View
+The JWT-based login/registration is a good example to understand a full stack application. There are many applications that have a login/registration so understanding the workflow of this feature is good to understand an application. Client side validation is helpful to do than server side validation since a user does not have to wait for an error message, especially error message for simple validation.
+
+ 
+
+Playwright e2e testing is good for browsing testing, since it helps to test for logging and registering. By knowing how to implement this testing for login and registering helped me to think of all the different ways an application login can go wrong. I have been on many registering and logging pages, and I know this part of the application is important to get right. Since it is the beginning of the user's access to the application, and if it goes wrong it can be bad for business. 
+
+ 
+
+I employed a password length requirement, and an email requirement. The JWT token strategy I would use is localstorage that is provided in the code. While it is not the safest, for a calculator application example it is okay.
+
+ 
+
+Some difficulties I have faced was that when I was testing the login api fields, the token registration did not always work. To overcome it, I looked over the code and got the right api fields to get it to work in the right order.
+
