@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Helper function to validate email format
     function isValidEmail(email) {
-        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        return /^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/.test(email);
     }
 
     // Helper function to validate password strength
