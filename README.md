@@ -5,6 +5,19 @@ https://github.com/im353-max/assignment13/actions
 DockerHub
 <img width="3745" height="1695" alt="DockerHub" src="https://github.com/user-attachments/assets/97fb6298-a256-4d98-96f4-e911d5305010" />
 https://hub.docker.com/repository/docker/imanayath/601_module13/tags
+
+Playwright Testing
+<img width="1105" height="437" alt="PlaywrighTest" src="https://github.com/user-attachments/assets/d30680be-0211-4985-a0a0-9a3ec0e61a3f" />
+
+Login Example
+
+<img width="1985" height="1460" alt="Login" src="https://github.com/user-attachments/assets/6b2461db-c3f1-4433-b94d-d57eee267100" />
+
+Register Example
+
+<img width="1968" height="1445" alt="Register" src="https://github.com/user-attachments/assets/074ca9d4-7e8d-40d3-962b-b1ae892105e9" />
+
+
 # 📦 Project Setup
 
 ---
