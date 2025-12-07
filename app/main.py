@@ -81,7 +81,7 @@ def read_health():
 )
 def register(user_create: UserCreate, db: Session = Depends(get_db)):
     # Exclude confirm_password before passing data to User.register
-    user_data = user_create.dict(exclude={"confirm_password"})
+    user_data = user_create.model_dump(exclude={"confirm_password"})
     try:
         user = User.register(db, user_data)
         db.commit()

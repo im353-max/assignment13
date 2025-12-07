@@ -41,9 +41,9 @@ class UserCreate(UserBase):
         description="User's password (8-128 characters)"
     )
     confirm_password: str = Field(
-        min_length=8,
-        max_length=128,
-        example="SecurePass123!",
+       min_length=8,
+      max_length=128,
+     example="SecurePass123!",
         description="Password confirmation"
     )
 
@@ -58,7 +58,7 @@ class UserCreate(UserBase):
     def validate_password_strength(self) -> "UserCreate":
         """Validate password strength requirements"""
         password = self.password
-        if len(password) > 8:
+        if len(password) < 8:
             raise ValueError("Password must be at least 8 characters long")
         if not any(char.isupper() for char in password):
             raise ValueError("Password must contain at least one uppercase letter")
